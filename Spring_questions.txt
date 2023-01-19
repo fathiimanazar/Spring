@@ -1,0 +1,74 @@
+Part A
+1. a. Core technologies
+   b. Testing
+   c. Data Access
+   d. Transactions
+   e. JDBC
+
+2.Spring is an open-source application framework that provides infrastructure support for developing Java applications
+
+3. a.Flexibility
+   b.Portability
+   c.Consistent configuration
+   d.Fast delivery
+   e.Secure
+
+5. About 20 modules
+   core
+   beans
+   context 
+   expression language
+   AOP
+  JDBC
+
+6. Spring configuration file is an XML file that contains the classes information
+
+7. Spring Boot Starters
+   Spring Boot AutoConfigurator
+   Spring Boot CLI
+   Spring Boot Actuator
+
+9. Spring IoC Container  creates the objects, configures and assembles their dependencies, manages their entire life cycle
+
+10. Spring Dependency injection is a way to inject the dependency of a framework component
+
+11. Press Ctrl+Alt+S to open the IDE settings and select Plugins
+    Find the plugin in the Marketplace and click Install
+
+12. java -jar executable. jar –server. port=9090
+
+13. By excluding the ErrorMvcAutoConfiguration
+
+15. BeanFactory loads beans on-demand, while ApplicationContext loads all beans at startup
+    The ApplicationContext automatically registers BeanFactoryPostProcessor and BeanPostProcessor at startup
+
+16. Inject and Autowired both annotations are used for autowiring in application.
+
+
+Part B
+
+1. All of the above
+2. All of the above
+3. Hibernate contextual sessions
+4. True
+5. Transactional
+6. DelegatngFilterProxy
+7. Dispatcher Servlet
+8. This scopes the bean defining to a single instance per Spring IoC container
+9. Association validation
+10.Any class that is managed by the container
+11.ApplicationContext
+12.All of the above
+13.Autowiring by property name. Spring tries to match and wire its properties with the beans defined by the
+same names in the configuration files
+14.The Spring web MVC framework provides model-view-controller architecture and ready components that can be
+used to develop flexible and loosely coupled web application
+15.All of the above
+16.Spring using dependency injection and supports loose coupling
+17.@PutMapping
+18.Jackson
+19.Repository
+20.@PathVariable
+
+
+
